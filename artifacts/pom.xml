@@ -17,12 +17,22 @@
         <dependencies>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>grpc-gpb-base</artifactId>
+                <artifactId>grpc-client-simple</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>grpc-client</artifactId>
+                <artifactId>grpc-client-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>grpc-client-ctl</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>grpc-client-util</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

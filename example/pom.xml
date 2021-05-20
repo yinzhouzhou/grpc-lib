@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.yinzhouzhou.sdn.grpc</groupId>
-    <artifactId>grpc-agg</artifactId>
+    <artifactId>grpc-example-agg</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>grpc-agg</name>
-    <description>The maven lib project for Grpc</description>
+    <name>grpc-example-agg</name>
+    <description>Demo project for Spring Boot</description>
 
     <packaging>pom</packaging>
 
@@ -16,12 +16,9 @@
     </properties>
 
     <modules>
-        <module>artifacts</module>
-        <module>grpc-parent</module>
-        <module>grpc-utils</module>
-        <module>grpc-client</module>
-        <module>grpc-client-wrap</module>
-        <module>grpc-server</module>
+        <module>client-of-gnmi</module>
+        <module>client-of-hello</module>
+        <module>gpb-compile</module>
     </modules>
 
 

@@ -4,26 +4,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.yinzhouzhou.sdn.grpc</groupId>
-    <artifactId>grpc-agg</artifactId>
+    <artifactId>grpc-client-wrap</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>grpc-agg</name>
-    <description>The maven lib project for Grpc</description>
-
-    <packaging>pom</packaging>
+    <name>SDN::grpc-client-wrap</name>
 
     <properties>
         <maven.deploy.skip>true</maven.deploy.skip>
     </properties>
 
+    <packaging>pom</packaging>
+
     <modules>
-        <module>artifacts</module>
-        <module>grpc-parent</module>
-        <module>grpc-utils</module>
-        <module>grpc-client</module>
-        <module>grpc-client-wrap</module>
-        <module>grpc-server</module>
+        <module>api</module>
+        <module>ctl</module>
+        <module>util</module>
     </modules>
-
-
 
 </project>

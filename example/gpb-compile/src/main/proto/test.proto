@@ -14,7 +14,9 @@ option java_multiple_files = true;
 
 //服务端接口类
 service Greeter {
-  rpc SayHello (HelloRequest) returns (HelloReply) {} //服务端接口方法
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+
+  rpc SayHello2 (stream HelloRequest) returns (stream HelloReply) {}
 }
 
 

@@ -7,12 +7,20 @@
         <groupId>com.github.yinzhouzhou.sdn.grpc</groupId>
         <artifactId>grpc-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../grpc-parent</relativePath>
+        <relativePath>../../grpc-parent</relativePath>
     </parent>
 
-    <artifactId>grpc-client-simple</artifactId>
+
+    <artifactId>grpc-client-ctl</artifactId>
+    <name>SDN::grpc-client-ctl</name>
+
 
     <dependencies>
+        <dependency>
+            <groupId>com.github.yinzhouzhou.sdn.grpc</groupId>
+            <artifactId>grpc-client-api</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
